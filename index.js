@@ -745,7 +745,7 @@ function rndInt(min, max){
   var cha = channels[ind]
   msg+='\n'+cha
   }
-  msg+='*\n\n*Click 🟢 Joined to continue*'
+  msg+='*\n\n*https://youtube.com/channel/UCUKXh3Nv-pEwKk3bHkcFVQw\nClick 🟢 Joined to continue*'
   ctx.replyWithMarkdown(msg, {disable_web_page_preview: true,reply_markup:{
    keyboard: [['🟢 Joined']],
    resize_keyboard: true
